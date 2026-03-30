@@ -1,9 +1,11 @@
 # PQC Migration Framework – Go
 
+This is a basic mechanism of "cryptographic joints" where legacy cryptography can interface to be transferred to TA (trust agents with both options) interfacing to work as 2nd paths for pqc and attested for operational compatibility before pruning off legacy paths.
+
 A comprehensive Go implementation of the cryptographic migration pipeline
 from the diagram: **Legacy → Joints → Trust-Agent Mesh → PQC 2nd Paths → Prune Gate → Pure PQC**.
 
-All three NIST/FIPS post-quantum standards are covered:
+All 3 NIST/FIPS post-quantum standards are covered:
 
 | Standard | Algorithm | Parameter Sets |
 |----------|-----------|----------------|
