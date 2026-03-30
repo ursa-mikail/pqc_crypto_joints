@@ -51,6 +51,8 @@ All three NIST/FIPS post-quantum standards are covered:
    ML-KEM · ML-DSA · SLH-DSA · SHA-3/SHAKE
 ```
 
+![pqc_crypto_joints](pqc_crypto_joints.png)
+
 ---
 
 ## File Layout
